@@ -1,0 +1,70 @@
+{
+  "id": "ec0c6b40-7ff5-4efd-8580-42f415e429b6",
+  "version": "1.1",
+  "name": "ltest",
+  "url": "",
+  "tests": [{
+    "id": "698eb8d3-5fc7-4adb-8d87-2261e6800de9",
+    "name": "ltest",
+    "commands": [{
+      "id": "201d0ce0-4495-4446-a109-935d0015ab67",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:4200",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ec4de193-b3b1-4fd5-912b-667d2a6b8601",
+      "comment": "",
+      "command": "clickAt",
+      "target": "name=login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4951a911-5c69-47b5-8c23-6f84c80f32c7",
+      "comment": "",
+      "command": "clickAt",
+      "target": "name=User",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a3d2403e-838d-4688-a0d6-6c0001ae0c77",
+      "comment": "",
+      "command": "type",
+      "target": "name=User",
+      "targets": [],
+      "value": "sirisha"
+    }, {
+      "id": "1f281edf-60ae-4191-acb3-812130be45bb",
+      "comment": "",
+      "command": "clickAt",
+      "target": "name=pass",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fc056490-3e20-4e06-8ae0-51012805e4d3",
+      "comment": "",
+      "command": "type",
+      "target": "name=pass",
+      "targets": [],
+      "value": "siri123"
+    }, {
+      "id": "f4541a89-3463-41e8-acf4-6f1347c28e80",
+      "comment": "",
+      "command": "clickAt",
+      "target": "name=signin",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "6074a5dd-3b47-4e30-82ed-49fb71466cfd",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": [],
+  "plugins": []
+}

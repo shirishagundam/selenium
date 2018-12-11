@@ -1,0 +1,49 @@
+{
+  "id": "e1e54c73-1c62-4237-a658-830b9fe8f9b1",
+  "version": "1.1",
+  "name": "search",
+  "url": "",
+  "tests": [{
+    "id": "82cea61c-9e1a-4dd9-8bf3-fde7614502c1",
+    "name": "search",
+    "commands": [{
+      "id": "f29dafa8-99aa-4bc9-a091-53309e51c8e5",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.google.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "793489a1-2520-487f-b1fe-4062c16e25a0",
+      "comment": "",
+      "command": "clickAt",
+      "target": "name=q",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3f046a13-fe2e-49e0-90df-5075c1da2123",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [],
+      "value": "telangana news"
+    }, {
+      "id": "d3a76eb6-350c-490a-b9c2-7e43efab81fb",
+      "comment": "",
+      "command": "clickAt",
+      "target": "name=btnK",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "3a95ca41-7796-441c-bcf6-c1a90f19d0d3",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": [],
+  "plugins": []
+}
